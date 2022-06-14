@@ -15,6 +15,8 @@ function createTag(label) {
     div.appendChild(span);
     div.appendChild(closeIcon);
     return div;
+    
+    
 }
 function clearTags() {
     document.querySelectorAll('.tag').forEach(tag => {
